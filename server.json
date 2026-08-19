@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mcp-dir/sefaz_rr_nfce-mcp",
+  "title": "SEFAZ RR: NFC-e",
+  "description": "SEFAZ RR: NFC-e, official-source lookup. Platform-hosted, pay per query with prepaid credit.",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/mcp-dir/sefaz_rr_nfce-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mcp.ai/p_sefaz_rr_nfce"
+    }
+  ]
+}
